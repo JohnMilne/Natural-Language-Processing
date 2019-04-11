@@ -1,7 +1,6 @@
 ### Natural Language Processing Lab
 
-#### This lab runs through the use of CountVectorizer, HashVectorizer and TfidfVectorizer to do Natural Language Processing
-#### on a pretrained language dataset known as fetch_20newsgroups.
+#### This lab runs through the use of CountVectorizer, HashVectorizer and TfidfVectorizer to do Natural Language Processing on a pretrained language dataset known as fetch_20newsgroups.
 
 #### CountVectorizer takes in a corpus and transforms the data into a numerical vector of word counts for each word in the corpus.
 
@@ -37,5 +36,4 @@
 	where n is the total number of documents in the dataset and df(t) is how many documents a given word occurs within
 
 	
-#### Using these three text transformers, I process the fetch_20newsgroups of choice and use a GridSearched LogisticRegression
-#### to model the training data and achieved a score of 81% on the testing data.
+#### Using these three text transformers, I process the fetch_20newsgroups of choice and use a GridSearched LogisticRegression to model the training data and achieved a score of 81% on the testing data.
